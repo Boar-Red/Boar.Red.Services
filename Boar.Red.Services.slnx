@@ -1,0 +1,16 @@
+<Solution>
+  <Project Path="../Boar.Red.Cache/Boar.Red.Cache.Client.Test/Boar.Red.Cache.Client.Test.csproj" />
+  <Project Path="../Boar.Red.Cache/Boar.Red.Cache.Client/Boar.Red.Cache.Client.csproj" />
+  <Project Path="../Boar.Red.Cache/Boar.Red.Cache.Test/Boar.Red.Cache.Test.csproj" />
+  <Project Path="../Boar.Red.Cache/Boar.Red.Cache/Boar.Red.Cache.csproj" />
+  <Project Path="../Boar.Red.Gateway/Boar.Red.Gateway.Client/Boar.Red.Gateway.Client.csproj" />
+  <Project Path="../Boar.Red.Gateway/Boar.Red.Gateway.Defines/Boar.Red.Gateway.Defines.csproj" />
+  <Project Path="../Boar.Red.Gateway/Boar.Red.Gateway.Test.Endpoint/Boar.Red.Gateway.Test.Endpoint.csproj" />
+  <Project Path="../Boar.Red.Gateway/Boar.Red.Gateway.Test.Utils/Boar.Red.Gateway.Test.Utils.csproj" />
+  <Project Path="../Boar.Red.Gateway/Boar.Red.Gateway.Test/Boar.Red.Gateway.Test.csproj" />
+  <Project Path="../Boar.Red.Gateway/Boar.Red.Gateway/Boar.Red.Gateway.csproj" />
+  <Project Path="../Boar.Red.Service/Boar.Red.Service.Test.NetCoreMvc/Boar.Red.Service.Test.NetCoreMvc.csproj" />
+  <Project Path="../Boar.Red.Service/Boar.Red.Service.Test/Boar.Red.Service.Test.csproj" />
+  <Project Path="../Boar.Red.Service/Boar.Red.Service/Boar.Red.Service.csproj" />
+  <Project Path="../Boar.Red.ServiceManager/Boar.Red.ServiceManager/Boar.Red.ServiceManager.csproj" />
+</Solution>

@@ -1,0 +1,36 @@
+[
+  {
+    "Name": "服务网关-流量转发测试",
+    "Projects": [
+      {
+        "Path": "..\\Boar.Red.Gateway\\Boar.Red.Gateway.Test.Endpoint\\Boar.Red.Gateway.Test.Endpoint.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "..\\Boar.Red.Gateway\\Boar.Red.Gateway\\Boar.Red.Gateway.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "..\\Boar.Red.Gateway\\Boar.Red.Gateway.Test\\Boar.Red.Gateway.Test.csproj",
+        "Action": "Start"
+      }
+    ]
+  },
+  {
+    "Name": "服务管理器-缓存服务读写测试",
+    "Projects": [
+      {
+        "Path": "..\\Boar.Red.ServiceManager\\Boar.Red.ServiceManager\\Boar.Red.ServiceManager.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "..\\Boar.Red.Cache\\Boar.Red.Cache\\Boar.Red.Cache.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "..\\Boar.Red.Cache\\Boar.Red.Cache.Test\\Boar.Red.Cache.Test.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

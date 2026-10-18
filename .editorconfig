@@ -1,0 +1,47 @@
+# EditorConfig — https://editorconfig.org
+root = true
+
+[*]
+charset = utf-8
+end_of_line = crlf
+insert_final_newline = true
+trim_trailing_whitespace = true
+indent_style = tab
+indent_size = 4
+
+[*.cs]
+indent_style = tab
+indent_size = 4
+max_line_length = 240
+
+# 大括号另起一行（Allman）
+csharp_new_line_before_open_brace = all
+# if/for/while 等分支必须使用大括号（IDE 提示，无法强制，遵守编码规范）
+csharp_prefer_braces = true:suggestion
+# 命名规范（与 docs/csharp-coding-style.md 一致）
+dotnet_naming_rule.private_fields_should_be_camel_case.severity = suggestion
+dotnet_naming_rule.private_fields_should_be_camel_case.symbols = private_fields
+dotnet_naming_rule.private_fields_should_be_camel_case.style = camel_case_underscore
+dotnet_naming_symbols.private_fields.applicable_kinds = field
+dotnet_naming_symbols.private_fields.applicable_accessibilities = private
+dotnet_naming_style.camel_case_underscore.required_prefix = _
+dotnet_naming_style.camel_case_underscore.capitalization = camel_case
+
+[*.{csproj,props,targets,slnx,xml,config,pubxml}]
+indent_style = tab
+indent_size = 4
+
+[*.{json,jsonc}]
+indent_style = tab
+indent_size = 4
+
+[*.{ts,tsx,vue,js,mjs,cjs}]
+indent_style = tab
+indent_size = 4
+
+[*.{yml,yaml}]
+indent_style = space
+indent_size = 2
+
+[*.md]
+trim_trailing_whitespace = false
